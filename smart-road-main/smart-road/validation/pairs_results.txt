@@ -1,0 +1,3 @@
+REFERENCE PAIRS: PASS; 144/144 pairs drained; minimum gap 1.527419 m; longest drain 21.883 s; hard overrides 0
+REFERENCE FOUR RIGHT TURNS: PASS; four concurrent reservations
+This independently checks equations/model behavior. It does NOT compile or execute the Rust program.

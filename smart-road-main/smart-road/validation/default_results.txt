@@ -1,0 +1,7 @@
+REFERENCE DEFAULT seed=0: completed=21; active=3; pending=0; min_gap=1.527171 m
+REFERENCE DEFAULT seed=1: completed=20; active=4; pending=0; min_gap=1.527157 m
+REFERENCE DEFAULT seed=7: completed=18; active=6; pending=0; min_gap=1.527447 m
+REFERENCE DEFAULT seed=42: completed=19; active=5; pending=0; min_gap=1.527378 m
+REFERENCE DEFAULT seed=2026: completed=14; active=10; pending=0; min_gap=1.527031 m
+REFERENCE DEFAULT RANDOM MODE: PASS; 24 requests per simulated minute
+This independently checks equations/model behavior. It does NOT compile or execute the Rust program.

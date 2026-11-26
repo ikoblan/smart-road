@@ -1,0 +1,19 @@
+[package]
+name = "smart_road"
+version = "1.0.0"
+edition = "2021"
+description = "Traffic-light-free intersection simulation with geometric route reservations"
+license = "MIT"
+default-run = "smart_road"
+
+[features]
+default = ["gui", "bundled-sdl"]
+gui = ["dep:sdl2"]
+bundled-sdl = ["gui", "sdl2/bundled", "sdl2/static-link"]
+
+[dependencies]
+sdl2 = { version = "=0.38.0", optional = true, default-features = false }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1

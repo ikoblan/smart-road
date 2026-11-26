@@ -1,0 +1,18 @@
+REFERENCE GEOMETRY: PASS
+Compatible unordered distinct-route pairs: 50/66
+Minimum compatible-route centre clearance: 6.000000 m
+Required centre clearance: 5.472136 m
+Conflict matrix (1 = conflict), N r/s/l; E r/s/l; S r/s/l; W r/s/l:
+100000000000
+010010001011
+001011010001
+000100000000
+011010010001
+001001011010
+000000100000
+001011010010
+010001001011
+000000000100
+010001011010
+011010001001
+This independently checks equations/model behavior. It does NOT compile or execute the Rust program.

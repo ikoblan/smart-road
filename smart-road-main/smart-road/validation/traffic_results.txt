@@ -1,0 +1,7 @@
+REFERENCE 36-VEHICLE BURST: PASS; drain time 71.117 s; minimum gap 1.527352 m
+REFERENCE TRAFFIC seed=0: PASS; completed=96; min_gap=1.527031 m; drain_time=207.325 s
+REFERENCE TRAFFIC seed=1: PASS; completed=96; min_gap=1.527031 m; drain_time=206.008 s
+REFERENCE TRAFFIC seed=7: PASS; completed=96; min_gap=1.527031 m; drain_time=235.025 s
+REFERENCE TRAFFIC seed=42: PASS; completed=96; min_gap=1.527031 m; drain_time=216.442 s
+REFERENCE TRAFFIC seed=2026: PASS; completed=96; min_gap=1.527031 m; drain_time=270.400 s
+This independently checks equations/model behavior. It does NOT compile or execute the Rust program.
